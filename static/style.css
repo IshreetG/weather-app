@@ -1,0 +1,76 @@
+body {
+    font-family: small-caps sans-serif;
+    background-image: url("../static/mountain.jpg");
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 450px;
+    height: 700px;
+    margin-top: 50px;
+    background-color: rgb(189, 206, 210);
+    margin-right:30%;
+    margin-left:32%;
+
+}
+h1 {
+    font-size: 80px;
+    color: white;
+}
+
+form {
+    margin-bottom: 20px;
+}
+
+input {
+    padding: 10px;
+    width: 200px;
+    margin-right: 10px;
+}
+
+button {
+    padding: 10px;
+    background-color: #ffffff; 
+    border: none;
+    color: rgb(102, 102, 102);
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 50%;
+}
+input{
+    padding: 10px;
+    background-color: #ffffff; 
+    border: none;
+    color: rgb(102, 102, 102);
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 20rem;
+
+}
+
+.weather-info {
+    /* margin-top: 20px; */
+    color: #ffffff;
+}
+
+.error {
+    color:white;
+    font-size: 30px;
+}
+h2 {
+    font-size: 40px;
+}
+h3{
+
+}
+h4{
+    font-size: 60px;
+    font-weight: lighter;
+    margin-top: -15px;
+}
