@@ -20,6 +20,8 @@ def index():
                 'temperature': weather_data['main']['temp'],
                 'description': weather_data['weather'][0]['description'],
                 'icon': weather_data['weather'][0]['icon'],
+                'humidity': weather_data['main']['humidity'],
+                'wind': weather_data['wind']['speed'],
             }
             return render_template('index.html', weather=weather)
         else:

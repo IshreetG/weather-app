@@ -20,6 +20,16 @@
                 <h3>{{ weather.description }}</h3>
                 <img src="http://openweathermap.org/img/wn/{{ weather.icon }}@2x.png" alt="weather icon">
                 <h4>{{ weather.temperature }} °C</h4>
+                <h5> 
+                    <img src="../static/humid.png" style="width:25px;height:25px;">
+                    {{weather.humidity}} %
+                     <br>Humidity </br>
+                </h5>
+                <h6> 
+                    <img src="../static/wind.png" style="width:50px;height:50px;">
+                    {{weather.wind}} mph
+                    <br> &nbsp; Wind Speed </br>
+                </h6>
             </div>
         {% elif error %}
             <p class="error">{{ error }}</p>

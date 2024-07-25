@@ -74,3 +74,19 @@ h4{
     font-weight: lighter;
     margin-top: -15px;
 }
+h5{
+    font-size: 20px;
+    font-weight: lighter;
+    margin-right: 100px;
+    margin-top: -50px;
+    display:inline;
+    float:right;
+}
+h6{
+    font-size: 20px;
+    font-weight: lighter;
+    margin-left: 80px;
+    margin-top: -75px;
+    display:inline;
+    float:left;
+}
